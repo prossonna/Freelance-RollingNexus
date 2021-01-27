@@ -276,8 +276,8 @@ p.card-title {
 }
 .top-talent-sub-wrap {
     border: 1px solid #666;
-    box-shadow: 1px 2px 3px 2px #E9E9E9;
-    margin: 10px 0;
+    box-shadow: 6px 5px 5px 2px#F5DD29;
+    margin: 14px 0;
 }
 .top-talent {
     padding: 0 10px;
@@ -287,15 +287,15 @@ button.hire-me {
     text-decoration: none;
     border: none;
     position: absolute;
-    right: 0;
+    right: 5px;
     top: 0;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
     border-radius: 0 0 0 20px;
     padding: 5px 10px;
-    background: #A6DB4A;
-    color: white;
+    background: yellow;
+    color: black;
     outline: none;
 }
 .talent-user-profile {
@@ -499,6 +499,9 @@ button.btn-browse {
     border-radius: 4px;
 }
 
+p.browse-desc {
+    font-style: italic;
+}
 /* Freelance - whats great about it */
 .about-sub-wrap {
     padding: 10px 0;
