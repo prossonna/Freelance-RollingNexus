@@ -355,6 +355,33 @@
         </div>
     </section>
 
+    <section id="tab-work-freelance">
+        <div class="container">
+            <div class="tab-work-wrap">
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                  </div>
+                  
+                  <div id="London" class="tabcontent">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                  </div>
+                  
+                  <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p> 
+                  </div>
+                  
+                  <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                  </div>
+            </div>
+        </div>
+    </section>
+
     <section id="how-its-work">
         <div class="container">
             <div class="how-work-wrap">
@@ -527,10 +554,15 @@
 
     <section id="browse-jobs">
         <div class="container">
-            <div class="get-started-wrap">
-                <p class="browse-title">So what are you waiting for?</p>
-                <p class="browse-desc">Search for the right job and write your best bd proposal now.</p>
-                <button class="btn-browse">Browse Jobs</button>
+            <div class="browse-jobs-conatin">
+                <div class="get-started-wrap">
+                    <p class="browse-title">So what are you waiting for?</p>
+                    <p class="browse-desc">Search for the right job and write your best bd proposal now.</p>
+                    <button class="btn-browse">Browse Jobs</button>
+                </div>
+                <div class="browse-img-wrap">
+                    <img src="https://lh3.googleusercontent.com/proxy/W0VnZnVzzfnZoR0S-VXHbwamOvWxwSlnK7wU7OqzIkrHHNPP26U6eGpC0JPFOueXGoAz1wtysAUQ3E-p2mSC01UC21iZJB4mBA3uQWowejvCdDycaTaBjQ" class="img-browse-sec">
+                </div>
             </div>
         </div>
     </section>
@@ -569,6 +601,24 @@
             $('.js-example-basic-multiple').select2();
         });
     </script>
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
     
 
 </body>
