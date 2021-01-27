@@ -1,0 +1,977 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,sans-serif!important;
+    color: #666;
+    overflow-x: hidden;
+    font-size: 12px;
+    background-color: #fff;
+}
+a {
+    text-decoration: none !important;
+    color: unset;
+}
+a:hover {
+    color:  unset;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Freelance */
+/* Freelance Index Page */
+.freelance-banner {
+    box-shadow: 1px 2px 3px 2px #E9E9E9;
+}
+.freelance-banner-wrap {
+    margin-top: 230px;
+    padding: 20px;
+}
+h1.freelance-banner-header {
+    text-transform: capitalize;
+    color: #FF5252;
+}
+img.banner-img {
+    width: 100%;
+    height: auto;
+}
+.search-bar-wrap {
+    box-shadow: 1px 2px 3px 2px #E9E9E9;
+    margin-bottom: 10px;
+}
+button.btn-search {
+    background: #03B6E3;
+    color: white;
+    border: none;
+    padding: 10px 25px 15px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.search-tags {
+    display: flex;
+    flex-direction: row;
+}
+span.btn-icon i.fas.fa-search {
+    padding: 12px;
+    font-size: 15px;
+    color: #A6DB4A;
+}
+span.btn-icon i.fas.fa-stamp {
+    padding: 12px;
+    font-size: 15px;
+    color: #A6DB4A;
+}
+input.search-bar-banner {
+    border: none;
+    text-decoration: none;
+    outline: none;
+    width: 250px;
+}
+span.select2.select2-container.select2-container--default {
+    width: 250px !important;
+    height: 48px;
+    background: grey;
+}
+span.select2-selection.select2-selection--single {
+    border: none;
+    outline: none;
+    padding: 14px 0;
+    border-radius: unset;
+    height: 48px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 20px;
+}
+input.select2-search__field {
+    display: none;
+}
+span.select2-search.select2-search--dropdown {
+    padding: unset;
+}
+.select2-container--open .select2-dropdown {
+    top: 4px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 10px;
+}
+/* select#job-types {
+    border: none;
+    padding: 12px 20px 12px 5px;
+    width: 250px;
+    outline: none;
+    text-decoration: none;
+} */
+
+
+span.search-bar-divider {
+    font-size: 25px;
+    color: #A6DB4A;
+}
+p.popular-tags-title {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+ul.popular-tag-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+li.popular-tag-lists {
+    padding: 0 10px;
+    border: 1px solid #666;
+    margin: 0 4px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+li.popular-tag-lists:hover {
+    background: #e9ecef;
+}
+
+.banner-guidance-btn {
+    margin: 30px 0;
+}
+button.btn-guidance-start {
+    border: none;
+    padding: 10px 20px;
+    margin: 0 15px 0 0;
+    font-weight: 600;
+    font-size: 15px;
+    background: #F5DD29;
+    color: #666;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+button.btn-guidance-start:hover {
+    color: white;
+}
+button.btn-guidance-demo {
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    background: #A6DB4A;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize; 
+}
+button.btn-guidance-demo:hover {
+    color: #666;
+}
+
+/* Freelance - Trusted Partners  */
+section#trusted-partners {
+    padding: 30px 0;
+}
+h3.category-heading {
+    margin: 20px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.heading-underline {
+    padding: 2px;
+    background: #F5DD29;
+    width: 100px;
+    margin: 0 auto 30px;
+}
+.trusted-partners-slider {
+    margin-top: 30px;
+    box-shadow: 1px 2px 3px 2px #E9E9E9;
+}
+img.slider-img {
+    height: 120px;
+    padding: 20px;
+}
+.trusted-partners-slider .owl-dots {
+    display: none;
+}
+.trusted-partners-slider .owl-nav {
+    margin-top: 0;
+    position: absolute;
+    bottom: 43;
+    width: 100%;
+    display: block !important;
+}
+.trusted-partners-slider button.owl-prev {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.trusted-partners-slider button.owl-next {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.trusted-partners-slider i.fa.fa-chevron-left {
+    background: white;
+    color: #FF5252;
+    padding: 6px 10px 6px;
+    font-size: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -20;
+    box-shadow: 2px 3px 3px 2px #E9E9E9;
+}
+.trusted-partners-slider i.fa.fa-chevron-left:hover {
+    background: #666;
+    color: #F5DD29;
+}
+.trusted-partners-slider i.fa.fa-chevron-right {
+    background: white;
+    color: #FF5252;
+    padding: 6px 10px 6px;
+    font-size: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: -20;
+    box-shadow: 2px 3px 3px 2px #E9E9E9;
+}
+.trusted-partners-slider i.fa.fa-chevron-right:hover {
+    background: #666;
+    color: #F5DD29;
+}
+
+/* Freelance - Top freelancing jobs */
+.top-jobs-wrap {
+    margin-bottom: 20px;
+}
+.jobs-wrap {
+    width: 100%;
+    box-shadow: 1px 2px 3px 2px #E9E9E9;
+    margin: 20px 0;
+}
+.jobs {
+    background:#2c6096;
+    width: 100%;
+}
+img.jobs-img {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p.card-title {
+    text-align: center;
+    padding: 10px;
+    font-size: initial;
+    text-transform: capitalize;
+}
+
+/* Freelance - Talent in our Network */
+.top-talent-wrap {
+    padding: 20px 0;
+}
+.top-talent-sub-wrap {
+    border: 1px solid #666;
+    box-shadow: 1px 2px 3px 2px #E9E9E9;
+    margin: 10px 0;
+}
+.top-talent {
+    padding: 0 10px;
+    position: relative;
+}
+button.hire-me {
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0 0 0 20px;
+    padding: 5px 10px;
+    background: #A6DB4A;
+    color: white;
+    outline: none;
+}
+.talent-user-profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+img.talent-user-img {
+    border-radius: 50%;
+    width: 60px;
+    border: 1px solid #666;
+    padding: 2px;
+}
+.talent-user-profile-status {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0 15px;
+}
+.talent-user-profile-img {
+    padding: 10px 0;
+}
+p.talent-user-profile-username {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+img.talent-user-verify {
+    width: 15px;
+}
+.talent-user-profile-check {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p.user-profile-verify-status {
+    margin: 0 10px;
+    font-size: 13px;
+}
+.user-profile-amount {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p.amount-category {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+span.fixed-hr {
+    color: #666;
+}
+p.user-amount {
+    font-size: 15px;
+    color: red;
+    font-weight: 600;
+    margin: 0 10px 0 0;
+}
+.user-skill-wrap {
+    padding: 10px 0;
+}
+ul.user-skill {
+    display: flex;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+li.user-skill-list {
+    padding: 0 5px;
+    margin: 3px 5px 3px 0;
+    background: #E9E9E9;
+}
+.user-rating-and-project {
+    margin: 10px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.user-rating {
+    display: flex;
+    flex-direction: row;
+}
+img.user-rating-img {
+    width: 15px;
+}
+p.user-rating-digit {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* Freelance - How its work */
+.how-work-wrap {
+    padding-bottom: 30px;
+}
+.work-wrap {
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+.work-image {
+    margin-left: auto;
+    margin-right: auto;
+    background: #666;
+    border-radius: 50%;
+}
+img.work-img {
+    width: 100px;
+    padding: 10px;
+    background: transparent;
+}
+p.wok-img-title {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 15px 0;
+}
+p.short-about-its-work-desc {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Video Section */
+section#video-wrap {
+    padding: 100px 0;
+    background: #DCDCDC;
+}
+h1.video-details-heading {
+    color: yellowgreen;
+}
+p.video-details-quotes {
+    font-style: italic;
+    font-size: 20px;
+    margin: 25px 0;
+}
+.quotes-by-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.quotes-img {
+    width: 62px;
+    border-radius: 50%;
+}
+p.user-name {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+img.img-f-quotes {
+    width: 60px;
+    padding: 5px;
+    background: white;
+    border-radius: 50%;
+}
+.user-wrap {
+    margin: auto 10px;
+}
+/* button.ytp-watch-later-button.ytp-button.ytp-show-watch-later-title {
+    display: none !important;
+}
+.ytp-chrome-top-buttons {
+    display: none !important;
+}
+.ytp-pause-overlay.ytp-scroll-min {
+    display: none !important;
+}
+button.ytp-button.ytp-settings-button {
+    display: none !important;
+}
+a.ytp-youtube-button.ytp-button.yt-uix-sessionlink {
+    display: none !important;
+}
+button.ytp-fullscreen-button.ytp-button {
+    display: none;
+} */
+
+
+
+/* Prefooter - Browse Jobs */
+section#browse-jobs {
+    padding: 20px 0;
+    background: black;
+    color: white;
+}
+p.browse-title {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+button.btn-browse {
+    margin: 15px 0;
+    border: none;
+    padding: 7px 20px;
+    background: #F5DD29;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+/* Freelance - whats great about it */
+.about-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.about-sub-wrap {
+    width: 350px;
+    padding: 10px 0;
+    margin: 20px 20px 20px 0;
+}
+.great-about-category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img.great-about-img {
+    width: 60px;
+}
+p.great-about-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: 10px;
+}
+p.great-about-desc {
+    padding: 20px 0;
+}
+
+
+/* #Freelance - Top Page */
+/* Top Page - banner */
+
+.search-wrap-top-jobs {
+    padding-top: 250px;
+}
+span.search-title {
+    color: white;
+}
+span.search-type {
+    color: #A6DB4A;
+}
+.search-btn-wrap {
+    text-align: center;
+}
+.search-btn-wrap {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 13px 10px;
+    background:#3E5E68;
+    border-radius: 4px;
+}
+input#search-jobs {
+    width: 420px;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    margin: 0 5px;
+}
+button.btn-search-top-jobs {
+    border: none;
+    padding: 6px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 5px;
+    background: #5dc121;
+    color: white;
+}
+
+/* Top Jobs - Search Jobs */
+h3.search-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.search-raw {
+    padding: 20px 0;
+}
+.search-types {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.job-types-dropdown {
+    margin: 2px;
+}
+
+/* Matched jobs */
+.matched-jobs-wrap {
+    padding: 5px 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0px 3px 2px 1px #efefef;
+}
+.matched-jobs-wrap:hover {
+    border: 2px solid #52B119;
+}
+
+.jobs1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+}
+.jobs2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.jobs3 {
+    border: 1px solid #666;
+    padding: 10px;
+}
+p.jobs3-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.jobs4 {
+    margin: auto 20px;
+}
+p.jobs3-tagline {
+    font-style: italic;
+}
+.jobs5 i.fas.fa-fire {
+    color: #52B119;
+}
+.job-types-dropdown select {
+    border: none;
+    padding: 10px 15px;
+    background: wheat;
+    outline: none;
+}
+img.jobs3-img {
+    width: 40px;
+}
+.jobs-desc1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul.jobs-list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+li.jobs-list {
+    margin: 12px;
+}
+p.show-more-content-jobs {
+    text-align: center;
+    margin: 50px;
+    color: #52B119;
+}
+
+
+/* sidebar */
+.sidebar-wrap {
+    padding: 10px 5px;
+    margin: 10px 0;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+}
+p.sidebar-wrap-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 7px;
+}
+li.sidebar-wrap-list i.fas.fa-angle-double-right, li.sidebar-wrap-list span.sidbar-wrap-list-num {
+    color: #018BB5;
+}
+li.sidebar-wrap-list {
+    background: #F1F1F1;
+    margin: 5px;
+    padding: 5px 0px 5px 5px;
+}
+li.sidebar-wrap-list:hover {
+    background: unset;
+}
+
+/* Sidebar 2 */
+.sidebar-guide {
+    border: 1px solid #DCDCDC;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+p.sidebar-guide-title {
+    font-size: 18px;
+    color: #018BB5;
+    font-weight: 600;
+}
+p.sidebar-guide-link {
+    margin: 10px 0;
+    color: #018BB5;
+}
+
+/* Sidebar Jobs */
+.jobs-sidebar1-wrap {
+    margin: 10px 0 2px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #DCDCDC;
+}
+.jobs-sidebar-2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.jobs-sidebar-3 {
+    border: 1px solid #666;
+    padding: 10px;
+    margin: 10px;
+}
+img.jobs-sidebar3-img {
+    width: 40px;
+}
+.jobs-sidebar3-desc {
+    margin: auto 5px;
+}
+p.jobs-sidebar3-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+p.jobs-sidebar3-tagline {
+    font-style: italic;
+}
+button.btn-sidebar4-btn1 {
+    border: none;
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    background: #52B119;
+    color: white;
+    font-weight: 600;
+}
+button.btn-sidebar4-btn2 {
+    border-radius: 5px;
+    border: 1px solid #666;
+    padding: 10px;
+    background: unset;
+    font-weight: 600;
+}
+
+.jobs-sidebar5-wrap{
+    margin: 10px 0 2px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px #DCDCDC;
+    padding: 10px 8px;
+}
+p.sidbar5-location {
+    font-size: 11px;
+    text-transform: capitalize;
+}
+p.sidbar5-location i.fas.fa-map-marker-alt {
+    color: #52B119;
+    font-size: 13px;
+
+}
+.jobs-sidebar6-wrap {
+    display: flex;
+    justify-content: left;
+    margin: 10px 0;
+}
+p.jobs-sidebar6-range {
+    margin: 5px 0;
+}
+p.jobs-sidebar7-range i.fas.fa-dollar-sign {
+    color: white;
+    background: #52B119;
+    padding: 3px 3px;
+    border-radius: 50%;
+    font-size: 9px;
+}
+.jobs-sidebar7-wrap {
+    width: 50%;
+}
+p.jobs-sidebar8-time i.fas.fa-briefcase {
+    color: #52B119;
+}
+p.jobs-sidebar7-desc {
+    margin: 10px 0 5px;
+    font-size: 11px;
+}
+p.jobs-sidebar7-desc-title {
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+ul.jobs-sidebar7-desc-ul {
+    list-style: circle;
+    margin-left: 10px;
+}
+li.jobs-sidebar7-desc-ul-list {
+    margin-left: 5px;
+}
+p.jobs-sidebar7-desc-list-title {
+    font-size: 10px;
+    margin: 10px 0 5px;
+}
+.company-size-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.company-size {
+    width: 50%;
+}
+p.company-size-title {
+    font-size: 10px;
+    margin: 10px 0;
+}
+p.posted-time-title {
+    font-size: 10px;
+    margin: 10px 0;
+}
+p.company-size-in-num {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+p.posted-time-date {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+/* Freelance - Product Page */
+.go-to-back {
+    margin: 20px 0;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.jobs-product-wrap {
+    padding-bottom: 15px;
+}
+.product-jobs-outer {
+    padding: 10px;
+    box-shadow: 0px 0px 2px 2px #DCDCDC;
+    margin-bottom: 3px;
+}
+.product-jobs1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-jobs2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-jobs2-1 {
+    border: 1px solid #DCDCDC;
+    padding: 10px;
+}
+img.product-jobs2-1-img {
+    width: 50px;
+}
+.product-jobs2-2 {
+    margin: auto 15px;
+}
+p.product-jobs2-2-title {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+p.product-jobs2-2-tagline {
+    font-style: italic;
+}
+.product-jobs4 {
+    margin: 20px 0 5px;
+}
+button.btn-product-jobs4-apply {
+    border: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #52B119;
+    color: white;
+    border-radius: 5px;
+}
+button.btn-product-jobs4-save {
+    border: 1px solid #666666;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.product-jobs-outer2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 2px #DCDCDC;
+}
+.product-jobs5 {
+    width: 33%;
+}
+.product-jobs6 {
+    width: 33%;
+}
+.product-jobs5 i.fas.fa-dollar-sign {
+    background: green;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+.product-jobs6 i.fas.fa-briefcase {
+    color: white;
+    background: green;
+    padding: 3px;
+    border-radius: 50%;
+}
+.product-jobs7 i.fas.fa-map-marker-alt {
+    color: white;
+    background: green;
+    padding: 3px;
+    border-radius: 50%;
+}
+p.product-jobs-level-title {
+    margin: 15px 0;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+p.product-jobs-heading {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+p.porduct-jobs-ul-title {
+    margin: 10px 0;
+    font-size: 11px;
+}
+ul.product-jobs5-ul {
+    list-style: circle;
+    margin-left: 15px;
+}
+ul.product-job6-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+li.product-jobs6-ul-list {
+    margin-right: 10px;
+    background: #DCDCDC;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+}
+.product-jobs-outer3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 2px #DCDCDC;
+    margin-bottom: 3px;
+}
+p.product-jobs8-desc {
+    margin-bottom: 20px;
+}
+h6.product-jobs-heading {
+    font-weight: 600;
+}
+ul.product-jobs8-ul {
+    list-style: circle;
+    margin-left: 20px;
+}
+li.product-jobs8-ul-list {
+    margin: 5px 0;
+}
+.btn-job-apply-wrap {
+    margin: 15px 0 10px;
+}
+    
+
+
+  
+  

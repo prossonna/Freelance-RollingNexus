@@ -1,0 +1,262 @@
+@media only screen and (max-width:320px) { 
+
+    /* Freelance Banner */
+    .freelance-banner-wrap {
+        padding: 20px;
+        margin-top: 100px;
+    }
+    h1.freelance-banner-header {
+        font-size: large;
+        margin-bottom: 20px;
+        text-align: center;
+        margin: 50px;
+    }
+    input.search-bar-banner {
+        width: 80%;
+    }
+    span.search-bar-divider {
+        display: none;
+    }
+    button.btn-search {
+        width: 100%;
+    }
+    p.popular-tags-title {
+        font-size: 8px;
+    }
+    li.popular-tag-lists {
+        font-size: smaller;
+    }
+    .banner-guidance-btn {
+        text-align: center;
+        margin: 20px 0;
+    }
+    button.btn-guidance-start {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    button.btn-guidance-demo {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    /* Freelance - Trusted Partners Slider */
+    h3.category-heading {
+        font-size: medium;
+    }
+    .trusted-partners-slider i.fa.fa-chevron-left {
+        left: -15;
+    }
+    .trusted-partners-slider i.fa.fa-chevron-right {
+        right: -15;
+    }
+
+    /* Freelance - Top freelancing Jobs */
+    img.jobs-img {
+        padding: 5px;
+    }
+    p.card-title {
+        font-size: small;
+    }
+
+    /* Freelance - Talent in our Network  */
+    .user-rating {
+        width: 144px;
+    }
+    .user-project {
+        width: 144px;
+    }
+
+    /* Freelance - How its Work  */
+    img.work-img {
+        width: 90px;
+        padding: 15px;
+    }
+
+    /* Freelance - Whats great about it */
+    .about-sub-wrap {
+        width: 100%;
+        margin: unset;
+    }
+    .banner-guidance-btn {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+
+    /* Page - Jobs */
+    .search-btn-wrap {
+        width: unset;
+    }
+    input#search-jobs {
+        width: 260px;
+        margin: 10px 5px;
+    }
+    button.btn-search-top-jobs {
+        width: 260px;
+        margin-bottom: 10px;
+    }
+    h3.search-title {
+        font-size: 18px;
+    }
+    .search-types {
+        justify-content: center;
+    }
+    .jobs1 {
+        display: unset; 
+    }
+    .jobs4 {
+        margin: auto 10px;
+    }
+    .jobs5 {
+        text-align: right;
+    }
+    .product-jobs5 {
+        width: 50%;
+    }
+    .product-jobs6 {
+        width: 49%;
+    }
+    button.btn-product-jobs4-apply {
+        padding: 10px 10px;
+    }
+    button.btn-product-jobs4-save {
+        padding: 10px 10px;
+    }
+    .product-jobs1 {
+        display: unset;
+    }
+    .product-jobs3-date {
+        TEXT-ALIGN: RIGHT;
+    }
+}
+
+@media only screen and (min-device-width : 320) and (max-width:375px) {
+    .freelance-banner-wrap {
+        margin-top: 170px;
+        padding: 20px;
+    }
+    h1.freelance-banner-header {
+        font-size: x-large;
+        margin: 0 0 15px;
+        text-align: center;
+    }
+    input.search-bar-banner {
+        width: 83%;
+    }
+    span.search-bar-divider {
+        display: none;
+    }
+    button.btn-search {
+        width: 100%;
+    }
+    .banner-guidance-btn {
+        margin: 30px 0;
+        text-align: center;
+    }
+    .search-btn-wrap {
+        width: unset;
+    }
+    input#search-jobs {
+        width: 300px;
+        margin: 10px 5px;
+    }
+    button.btn-search-top-jobs {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .sidebar-guide {
+        margin-bottom: 20px;
+    }
+    button.btn-search-top-jobs {
+        margin: 10px 5px;
+        width: 330px;
+    }
+    input#search-jobs {
+        width: 330px;
+    }
+    .product-jobs5 {
+        width: 50%;
+    }
+    .product-jobs6 {
+        width: 50%;
+    }
+
+}
+@media only screen and (min-device-width : 375px) and (max-width:425px) {
+    .freelance-banner-wrap {
+        margin-top: 160px;
+        padding: 20px;
+    }
+    h1.freelance-banner-header {
+        font-size: x-large;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    input.search-bar-banner {
+        width: 80%;
+    }
+    span.search-bar-divider {
+        display: none;
+    }
+    button.btn-search {
+        width: 100%;
+    }
+    .banner-guidance-btn {
+        margin: 30px 0;
+        text-align: center;
+    }
+    .search-types {
+        justify-content: center;
+    }
+    .jobs1 {
+        display: unset;
+    }
+    .jobs5 {
+        text-align: right;
+    }
+    .sidebar-guide {
+        margin-bottom: 20px;
+    }
+    .search-btn-wrap {
+        width: 90%;
+    } 
+    input#search-jobs {
+        width: 330px;
+    }
+    button.btn-search-top-jobs {
+        margin: 10px 5px;
+        width: 330px;
+    }
+    .product-jobs5 {
+        width: 50%;
+    }
+    .product-jobs6 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-device-width : 600px) and (max-device-width : 768px) {
+    .about-sub-wrap {
+        width: 320px;
+    }
+    .search-btn-wrap {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 992px) and (max-device-width : 1024px) {
+    .freelance-banner-wrap {
+        margin-top: 170px;
+    }
+    .about-sub-wrap {
+        width: 444px;
+    }
+    img.talent-user-img {
+        width: 50px;
+    }
+    .talent-user-profile-status {
+        padding: 0 5px;
+    }
+    .search-btn-wrap {
+        width: 60%;
+    }
+}
