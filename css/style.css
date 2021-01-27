@@ -175,19 +175,15 @@ button.btn-guidance-demo:hover {
 
 
 /*  Freelance - Tabs */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+section#tab-work-freelance {
+    padding: 20px 0;
 }
-  
-  /* Style the buttons inside the tab */
-.tab {
+.tab-work {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    justify-content: center;
+    display: flex;
 }
-  
+
   /* Style the buttons inside the tab */
 .tab button {
     background-color: inherit;
@@ -213,10 +209,92 @@ button.btn-guidance-demo:hover {
   /* Style the tab content */
 .tabcontent {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
 }
+button.tablinks.active {
+    outline: none;
+    background: #F5DD29;
+    text-decoration: none;
+}
+button.tablinks {
+    border: none;
+    margin: 10px;
+    padding: 10px 20px;
+    outline: none;
+}
+section#tab-work-freelance {
+    background: #DCDCDC;
+}
+.freelance-work-contain {
+    box-shadow: 0px 4px 20px 5px #DCDCDC;
+    padding: 15px;
+    margin: 25px 0;
+    background: white;
+}
+.freelance-work-contain:hover {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.freelance-work-title-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+p.freelance-work-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #d06bbf;
+}
+p.freelance-work-upload-date {
+    font-size: 10px;
+    margin: 5px 0 0;
+}
+.freelance-cat-jobtype {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+p.freelance-work-desc-p {
+    padding: 10px 15px;
+}
+ul.freelance-cat-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+li.freelance-cat-list {
+    margin: 10px 6px 10px 0;
+    background: #DCDCDC;
+    padding: 2px 5px;
+}
+ul.freelance-jobtype-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+li.freelance-jobtype-list {
+    margin: 10px 0 10px 5px;
+}
+p.freelance-work-bid i.fas.fa-dollar-sign, p.freelance-work-bid i.fas.fa-briefcase  {
+    color: white;
+    background: #52B119;
+    padding: 3px 3px;
+    border-radius: 50%;
+    font-size: 9px;
+}
+.freelancing-bid-status {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+p.freelance-work-bid {
+    margin-right: 10px;
+}
+p.freelance-work-upload-date i.far.fa-clock {
+    color: white;
+    background: #52B119;
+    padding: 3px 3px;
+    border-radius: 50%;
+    font-size: 9px;
+}
+
 
 
 
@@ -328,7 +406,7 @@ p.card-title {
 }
 .top-talent-sub-wrap {
     border: 1px solid #666;
-    box-shadow: 6px 5px 5px 2px#F5DD29;
+    box-shadow: 6px 5px 5px 2px #F5DD29;
     margin: 14px 0;
 }
 .top-talent {
