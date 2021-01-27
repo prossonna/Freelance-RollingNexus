@@ -456,6 +456,9 @@ img.img-f-quotes {
 .user-wrap {
     margin: auto 10px;
 }
+.video-details-wrap {
+    padding: 20px 0;
+}
 /* button.ytp-watch-later-button.ytp-button.ytp-show-watch-later-title {
     display: none !important;
 }
@@ -497,15 +500,8 @@ button.btn-browse {
 }
 
 /* Freelance - whats great about it */
-.about-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
 .about-sub-wrap {
-    width: 350px;
     padding: 10px 0;
-    margin: 20px 20px 20px 0;
 }
 .great-about-category {
     display: flex;
