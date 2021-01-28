@@ -677,6 +677,9 @@ p.great-about-desc {
 .search-wrap-top-jobs {
     padding-top: 250px;
 }
+h3.top.center {
+    text-align: center;
+}
 span.search-title {
     color: white;
 }

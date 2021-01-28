@@ -157,7 +157,7 @@
         width: unset;
     }
     input#search-jobs {
-        width: 300px;
+        width: 300px !important;
         margin: 10px 5px;
     }
     button.btn-search-top-jobs {
@@ -171,9 +171,6 @@
         margin: 10px 5px;
         width: 330px;
     }
-    input#search-jobs {
-        width: 330px;
-    }
     .product-jobs5 {
         width: 50%;
     }
@@ -182,7 +179,7 @@
     }
 
 }
-@media only screen and (min-device-width : 375px) and (max-width:425px) {
+@media only screen and (min-device-width : 376px) and (max-width:425px) {
     .freelance-banner-wrap {
         margin-top: 160px;
         padding: 20px;
