@@ -18,7 +18,7 @@
     <div class="freelance-banner" style="
         background: url(image/banner-img-freelancing.jpeg);
         
-        height: 600px;
+        height: unset;
         width: 100%;
         background-size: cover;
         background-attachment: inherit;"> 
@@ -62,6 +62,21 @@
                         <!-- <div class="banner-guidance-btn">
                             <button class="btn-guidance-start">Get Started</button> <button class="btn-guidance-demo">Watch Demo</button>
                         </div> -->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-lg-4">
+                    <div class="img-banner-img">
+                        <div class="owl-carousel owl-theme" id="freelance-index-banner-slider">
+                            <div class="item">
+                                <img src="https://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Drake-PNG-Image.png" class="freelance-index-banner-img">
+                            </div>
+                            <div class="item">
+                                <img src="https://freepngimg.com/thumb/drake/4-2-drake-png-picture.png" class="freelance-index-banner-img">
+                            </div>
+                            <div class="item">
+                                <img src="image/luffy.png" class="freelance-index-banner-img">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -869,7 +884,7 @@
                     <button class="btn-browse">Browse Jobs</button>
                 </div>
                 <div class="browse-img-wrap">
-                    <img src="https://lh3.googleusercontent.com/proxy/W0VnZnVzzfnZoR0S-VXHbwamOvWxwSlnK7wU7OqzIkrHHNPP26U6eGpC0JPFOueXGoAz1wtysAUQ3E-p2mSC01UC21iZJB4mBA3uQWowejvCdDycaTaBjQ" class="img-browse-sec">
+                    <img src="https://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Drake-PNG-Image.png" class="img-browse-sec">
                 </div>
             </div>
         </div>
@@ -900,6 +915,24 @@
                 },
                 1000:{
                     items:5
+                }
+            }
+        })
+        $('#freelance-index-banner-slider').owlCarousel({
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:5000,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:1
                 }
             }
         })
