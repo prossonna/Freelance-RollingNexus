@@ -1237,6 +1237,71 @@ button.btn-offer {
     background: #ec3e3e;
     color: white;
 }
+
+
+/* Top Freelancer List */
+.freelancer-list-contain {
+    padding: 10px 0;
+}
+.search-freelancer-list {
+    padding: 30px 20px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 1px 2px 5px 0px #dcdcdc;
+    margin-bottom: 3px;
+}
+button.btn-search-freelancer {
+    border: none;
+    padding: 8px 20px;
+    background: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.freelancer-user1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.freelancer-user2 {
+    width: 70px;
+    border-radius: 50%;
+    background: #DCDCDC;
+    position: relative;
+}
+img.freelancer-img1 {
+    width: 70px;
+    border-radius: 50%;
+}
+.freelancer-user3 {
+    margin: auto 10px;
+}
+p.freelancer-p1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5677d6;
+}
+p.freelancer-p1-tagline {
+    font-weight: 600;
+}
+.freelancer-active1 {
+    position: absolute;
+    background: green;
+    padding: 4px;
+    border-radius: 50%;
+    border: 2px solid white;
+    bottom: 4px;
+    right: 4px;
+}
+.freelancer-list {
+    box-shadow: 1px 2px 5px 0px #dcdcdc;
+    margin-top: 5px;
+    padding: 20px 10px;
+}
+.freelancer-status1-wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
     
 
 
