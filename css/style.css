@@ -1252,7 +1252,7 @@ button.btn-offer {
 button.btn-search-freelancer {
     border: none;
     padding: 8px 20px;
-    background: green;
+    background: #008000;
     color: white;
     font-size: 15px;
     font-weight: 600;
@@ -1284,7 +1284,7 @@ p.freelancer-p1-tagline {
 }
 .freelancer-active1 {
     position: absolute;
-    background: green;
+    background: #008000;
     padding: 4px;
     border-radius: 50%;
     border: 2px solid white;
@@ -1294,12 +1294,58 @@ p.freelancer-p1-tagline {
 .freelancer-list {
     box-shadow: 1px 2px 5px 0px #dcdcdc;
     margin-top: 5px;
-    padding: 20px 10px;
+    padding: 20px 15px;
 }
 .freelancer-status1-wrap {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+p.freelancer-status {
+    word-spacing: 1px;
+}
+p.freelancer-status span.f-s-w-2 {
+    font-weight: 600;
+}
+.progress {
+    height: 3px;
+    margin-top: 5px;
+}
+.progress-bar {
+    background: #008000;
+}
+.freelancer-short-bio-wrpa {
+    margin: 12px 0;
+}
+ul.f-s-s-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+li.f-s-s-li {
+    margin-right: 10px;
+    background: #DCDCDC;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+li.f-s-s-li:hover {
+    background: #fff;
+    cursor: pointer;
+}
+.pagination {
+    justify-content: flex-end;
+}
+.pagination-wrap {
+    margin: 5px 0px;
+    box-shadow: 1px 2px 5px 0px #dcdcdc;
+    padding: 25px 10px;
+}
+a.page-link.active {
+    font-weight: 700;
+    color: #008000;
+}
+.page-link {
+    color: #666;
 }
 
     
