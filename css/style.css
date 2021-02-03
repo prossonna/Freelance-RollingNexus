@@ -181,7 +181,11 @@ button.btn-guidance-demo:hover {
     color: #666;
 }
 
-
+.owl-carousel .owl-item img {
+    display: block;
+    width: 450px;
+    height: 515px;
+}
 
 /*  Freelance - Tabs */
 section#tab-work-freelance {
