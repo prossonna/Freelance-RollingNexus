@@ -107,7 +107,8 @@ span.select2-search.select2-search--dropdown {
     top: 10px;
 }
 img.freelance-index-banner-img {
-    width: 100%;
+    width: 450px;
+    height: 515px;
 }
 .img-banner-img .owl-nav {
     display: none;
@@ -181,11 +182,6 @@ button.btn-guidance-demo:hover {
     color: #666;
 }
 
-.owl-carousel .owl-item img {
-    display: block;
-    width: 450px;
-    height: 515px;
-}
 
 /*  Freelance - Tabs */
 section#tab-work-freelance {
