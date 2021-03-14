@@ -25,11 +25,18 @@
         .freelance-ad {
     padding: 50px 0;
         }
-    img.ad-img {
+    .ad-img {
     width: 350px;
-    opacity: .7;
     height: 200px;
-    border: 1px solid #666;
+}
+.ad-img:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 350px;
+    height: 200px;
+    background:  #0000007a;;
 }
 .ad-desc {
     position: relative;
@@ -57,9 +64,56 @@
     padding: 7px 20px;
     background: transparent;
     border-radius: 4px;
+    text-transform: capitalize;
 }
 .ad-btn {
     text-align: center;
+}
+.bg-img {
+    /* background: url(image/freelance-ad3.jpeg); */
+    width: 100%;
+    height: 200px;
+    /* background-size: cover; */
+    box-shadow: 0px 0px 0px 2px #d4d4d4;
+}
+.ad-outer-2 {
+    padding-bottom: 10px;
+    box-shadow: 1px 2px 3px 4px #dcdcdc;
+}
+.heading1 {
+    text-align: center;
+    position: relative;
+    top: -20px;
+    background: #bfbfb3;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    color: #FFF;
+    box-shadow: 3px 8px 12px 0px #000;
+}
+.bg-img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 93%;
+    height: 200px;
+    background: #0000003d;
+}
+@media only screen and (max-width: 600px) {
+    .bg-img:after {
+    width: 91%;
+    }
+}
+@media only screen and (min-width: 600px)and (max-width: 768px) {
+    .bg-img:after {
+    width: 88%;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .bg-img:after {
+    width: 92%;
+    }
 }
     </style>
 </head>
@@ -132,13 +186,15 @@
         </div>
     </div>
 
-    <section id="ad">
+    <!-- <section id="ad">
         <div class="container">
             <div class="freelance-ad">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="ad-outer">
-                            <img class="ad-img" src="image/freelance-ad2.jpeg" alt="">
+                            <div class="ad-img" style="background: url('image/freelance-ad2.jpeg'); background-size: cover;">
+
+                            </div>
                             <div class="ad-desc">
                                 <p class="title-heading">Sales Campaign </p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero veniam commodi consequatur esse optio ut vero ratione illo ipsam saepe.</p>
@@ -150,7 +206,9 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="ad-outer">
-                            <img class="ad-img" src="image/freelance-ad3.jpeg" alt="">
+                            <div class="ad-img" style="background: url('image/freelance-ad3.jpeg'); background-size: cover;">
+
+                            </div>
                             <div class="ad-desc">
                                 <p class="title-heading">Sales Campaign </p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero veniam commodi consequatur esse optio ut vero ratione illo ipsam saepe.</p>
@@ -162,13 +220,73 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="ad-outer">
-                            <img class="ad-img" src="image/freelance-ad4.jpeg" alt="">
+                            <div class="ad-img" style="background: url('image/freelance-ad4.jpeg'); background-size: cover;">
+
+                            </div>
                             <div class="ad-desc">
                                 <p class="title-heading">Sales Campaign </p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero veniam commodi consequatur esse optio ut vero ratione illo ipsam saepe.</p>
                                 <div class="ad-btn">
                                     <button class="btn-promo-code">Get Promo Code</button>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section> -->
+
+    <section id="ad">
+        <div class="container">
+            <div class="freelance-ad">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="ad-outer-2">
+                            <div class="bg-img" style="background: url('image/freelance-ad2.jpeg'); background-size: cover;">
+
+                            </div>
+                            <div class="heading1">
+                                Sales Campaign
+                            </div>
+                            <div>
+                                <p style="padding: 5px 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta voluptatem similique, laborum facere sed? Est dolores nam tempora similique.</p>
+                            </div>
+                            <div class="ad-btn">
+                                <button class="btn-promo-code">get a quote</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="ad-outer-2">
+                            <div class="bg-img" style="background: url('image/freelance-ad3.jpeg'); background-size: cover;">
+
+                            </div>
+                            <div class="heading1">
+                                Sales Campaign
+                            </div>
+                            <div>
+                                <p style="padding: 5px 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta voluptatem similique, laborum facere sed? Est dolores nam tempora similique.</p>
+                            </div>
+                            <div class="ad-btn">
+                                <button class="btn-promo-code">get a quote</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="ad-outer-2">
+                            <div class="bg-img" style="background: url('image/freelance-ad4.jpeg'); background-size: cover;">
+
+                            </div>
+                            <div class="heading1">
+                                Sales Campaign
+                            </div>
+                            <div>
+                                <p style="padding: 5px 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta voluptatem similique, laborum facere sed? Est dolores nam tempora similique.</p>
+                            </div>
+                            <div class="ad-btn">
+                                <button class="btn-promo-code">get a quote</button>
                             </div>
                         </div>
                     </div>
